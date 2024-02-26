@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/main.js" defer></script>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> 
+    </nav>   
+    <div class="menu-full">
+      <ul>
+        <li><a href="who-we-are/index.html">Who We Are</a></li>
+        <li><a href="adopt/index.html">Adopt</a></li>
+        <li><a href="foster/index.html">Foster</a></li>
+        <li><a href="volunteer/index.html">Volunteer</a></li>
+        <li><a href="tnr/index.html">TNR</a></li>
+        <li><a href="barn-cats/index.html">Barn Cats</a></li>
+        <li><a href="shop/index.html">Shop</a></li>
+        <li><a href="donate/index.html">Donate</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="adoptables">
+    <pet-scroller
+      type='[]'
+      age='[]'
+      limit="48"
+      hidebreed
+      status="adoptable"
+      petlisttitle="Urban Cat Coalition&#x27;s Adoptable Cats"
+      organization="WI497"
+      apibase="https://api.petfinder.com"
+      petfinderurl="https://www.petfinder.com"
+      accesstoken="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJtd1NmUDQ1SEpPckFSS0RkVGM1M3JGSjNHVTJIdnk0SUxVSGR5Y3NnNGpURzRCVHIzdCIsImp0aSI6ImxuWkx0VlJHNzlDeUdnQUh4ekd2Y2pjRU1VMkMzaHVWUWNtd1BtblgiLCJpYXQiOjE3MDc0MzA1MjMsIm5iZiI6MTcwNzQzMDUyMywiZXhwIjo0ODYzMTA0MTIzLCJzdWIiOiI4NjU5NDA0Iiwic2NvcGVzIjpbXX0.eh4nIJbhqARqLjXTartjToArVwquXS6MBvLbW3-Fihvt9aB_kl00XbH9VgTg6sdybVnZxsRbsS2h2AherSKNJSn0Bcwn-pcoAxM2QeA-hzCahidbSDskO0aFJ_zOGsbXPe1mOwB7Im2uiHVQn0TBP3pcCPjjtftdK_FFqldaYhs8BKKtXg0WNrpVm588UEL5_kHQR_foOYkgAgbAyidUeoQ0XRpjuti8K4uiInNHyCPOLevxfBb_nf6PTZutFRmpcvog85l9ynUuJ0UCeD6HcbvhRepBhaPj_ITpu6kFT3CLV7jB5mK-xJlqSxega9-3vkXGO4V1GJIf7p1xCDJuaA">
+    </pet-scroller>
+
+    <script src="https://www.petfinder.com/assets/widgets/scripts/main-widgets-web.js">
+    </script>
+  </div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
