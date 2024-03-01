@@ -97,7 +97,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #00789d;/*#f0f7f8; Light blue background */
+  background-color: #3a93ae;/*#f0f7f8; Light blue background */
 }
 
 .content-wrapper {
@@ -126,30 +126,26 @@ footer {
 header h1 {
   color: #fff;
   font-size: 1rem;
-  padding: 0 15px 15px 15px;
+  padding: 15px;
 }
 
-header img {
-  width: 25%;
-  padding: 30px 0 10px 0;
+nav img {
+  width: 4rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav figure {
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
 }
-/*
-/*header nav {
-  background-color: #00789d; /* Dark blue navigation background *//*
-  font-size: 1.125em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 10px;
-}*/
 
 nav {
-  padding: 1rem;
+  padding: .75rem;
   display: flex;
   background-color: #00789d;
 }
@@ -157,14 +153,14 @@ nav {
 .menu-full {
   background-color:#00789d;
   height: 100vh;
-  width: 100%;
+  width: 75%;
   max-width: 450px;
   position: fixed;
-  top: 60px;
+  top: 85px;
   right: -450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
   font-size: 2rem;
@@ -195,11 +191,15 @@ nav {
 }
 
 .ham-menu span:nth-child(1) {
-  top: 25%;
+  top: 36%;
+}
+
+.ham-menu span:nth-child(2) {
+  top: 66%;
 }
 
 .ham-menu span:nth-child(3) {
-  top: 75%;
+  top: 96%;
 }
 
 .ham-menu.active span:nth-child(1) {
@@ -219,7 +219,6 @@ nav {
 header a {
   color: #fff; /* White text color for navigation links */
   text-decoration: none;
-  margin: 0 15px;
 }
 
 footer {
