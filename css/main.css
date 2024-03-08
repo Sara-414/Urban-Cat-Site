@@ -12,7 +12,7 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #fff; /*222 color changed to white*/
   font-size: 1em;
   line-height: 1.4;
 }
@@ -123,31 +123,37 @@ footer {
   flex-flow: row wrap;
 }
 
-header h1 {
-  color: #fff;
-  font-size: 1rem;
-  padding: 15px;
+nav {
+  padding: .75rem;
+  display: flex;
+  background-color: #00789d;
 }
 
 nav img {
   width: 4rem;
   padding: 0;
   margin: 0;
-  display: flex;
 }
 
 nav figure {
   margin: 0;
 }
 
-ul {
-  list-style-type: none;
+nav button {
+  background-color: orange;
+  padding: 8px 25px;
+  border-radius: 5px;
 }
 
-nav {
-  padding: .75rem;
-  display: flex;
-  background-color: #00789d;
+.donate-button {
+  align-items: center;
+  margin-left: auto;
+  margin-top: 14px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .menu-full {
@@ -176,6 +182,7 @@ nav {
   width: 50px;
   margin-left: auto;
   position: relative;
+  margin: 0 5px 0 10px;
 }
 
 .ham-menu span {
@@ -216,9 +223,15 @@ nav {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-header a {
+.menu-full a {
   color: #fff; /* White text color for navigation links */
   text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+  font-size: 1rem;
+  padding: 15px;
 }
 
 footer {
@@ -279,10 +292,6 @@ footer .copyright {
   height: auto;
 }
 
-.hero-img input {
-  background-color: orange;
-  position: absolute;
-}
 
 /* ==========================================================================
    Helper classes
