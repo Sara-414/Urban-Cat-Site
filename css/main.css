@@ -140,9 +140,10 @@ nav figure {
 }
 
 nav button {
-  background-color: orange;
+  background: orange;
   padding: 8px 25px;
   border-radius: 5px;
+  color: #00526a;
 }
 
 .donate-button {
@@ -188,7 +189,7 @@ ul {
 .ham-menu span {
   height: 5px;
   width: 100%;
-  background-color: orange;
+  background: orange;
   border-radius: 25px;
   position: absolute;
   top: 50%;
@@ -230,9 +231,62 @@ ul {
 
 h1 {
   color: #fff;
-  font-size: 1.15rem;
-  padding: 0 15px;
+  font-size: 1rem;
+  padding: 15px 15px 0 15px;
   text-align: center;
+}
+
+.info-bar {
+  background-color:#006888;
+  justify-content: space-between;
+  display: flex;
+  margin: 50px 0;
+  text-align: center;
+  border-radius: 10%;
+  box-shadow: inset 0 0 0 15px #3a93ae, inset 0 0 0 15px #3a93ae;
+}
+
+.left-info-circle {
+  float: left;
+  background: orange;
+  width: 23%;
+  border-radius: 40%;
+  padding: 13px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-info-circle {
+  float: left;
+  background: orange;
+  width: 23%;
+  border-radius: 40%;
+  padding: 13px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-info-circle {
+  float: right;
+  background: orange;
+  width: 23%;
+  border-radius: 40%;
+  padding: 13px; 
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  align-items: center;
+  font-size: .7rem;
+  color: #00526a;
 }
 
 .video-element {
@@ -243,13 +297,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
-  padding: 0 15px;
+  font-size: .9rem;
+  padding: 0 20px 20px 20px;
   text-align: center;
 }
 
+.main-page-tnr {
+  margin: 0 0 50px 0;
+}
+
 footer {
-  background-color: #00789d; /* Blue footer background */
+  background-color: #006888; /* Blue footer background */
   color: #fff; /* White text color for footer */
   padding: 10px;
   text-align: center;
@@ -298,6 +356,7 @@ footer .copyright {
 
 .hero-img {
   display: flex;
+  margin: 10px 0;
 }
 
 .hero-img img {
