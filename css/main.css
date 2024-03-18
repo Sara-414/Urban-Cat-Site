@@ -97,7 +97,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #3a93ae;/*#f0f7f8; Light blue background */
+  background-color: #3a93ae;/*#f0f7f8; Lighter blue background */
 }
 
 .content-wrapper {
@@ -107,12 +107,17 @@ body {
 /* ----- Base Header - Footer Styles ----- */
 
 header {
-  background-color: #3a93ae; /* Blue header background */
+  background-color: #3388a2; /* Blue header background 3a93ae*/
   text-align: center;
 }
 
 a {
   color: #fff;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* had header additionally - may need to add back */
@@ -123,10 +128,13 @@ footer {
   flex-flow: row wrap;
 }
 
+/* ----- Mobile Styles - Hompage ----- */
+
 nav {
   padding: .75rem;
   display: flex;
   background-color: #00789d;
+  margin-bottom: 35px;
 }
 
 nav img {
@@ -229,9 +237,20 @@ ul {
   text-decoration: none;
 }
 
+.hero-img {
+  display: flex;
+  margin: 10px 0;
+}
+
+.hero-img img {
+  max-width: 100%;
+  background-size: cover;
+  height: auto;
+}
+
 h1 {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 15px 15px 0 15px;
   text-align: center;
 }
@@ -289,16 +308,20 @@ h3 {
   color: #00526a;
 }
 
+iframe {
+  width: 100%;
+  height: auto;
+}
+
 .video-element {
   display: block;
   justify-content: center;
   text-align: center;
-  padding: 20px;
+  padding: 10px 5px 20px 5px;
 }
 
 h2 {
-  font-size: .9rem;
-  padding: 0 20px 20px 20px;
+  font-size: .95rem;
   text-align: center;
 }
 
@@ -307,19 +330,25 @@ h2 {
 }
 
 footer {
-  background-color: #006888; /* Blue footer background */
+  background-color: #00789d; /* Blue footer background */
   color: #fff; /* White text color for footer */
   padding: 10px;
   text-align: center;
   flex-direction: column;
+  border-top: 5px double #fff;
+}
+
+footer h4 {
+  font-size: 1.2rem;
 }
 
 footer p {
   margin: 0;
+  font-size: 1rem;
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 68%;
   margin: 50px 0;
 }
 
@@ -336,35 +365,37 @@ footer .social-icons {
 footer .social-icons p {
   background-color: orange;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 footer .social-icons p i {
-  font-size: 1.3125rem;
+  font-size: 1.4rem;
   color: #00789d;
 }
 
 footer .copyright {
-  margin: 20px 0;
+  margin: 20px 7px;
 }
 
-/* ----- Mobile Styles - Hompage ----- */
+/* Who We Are Mobile Tab */
 
-.hero-img {
-  display: flex;
-  margin: 10px 0;
+.our-focus {
+  background-color: #006888;
+  padding: 20px 0 50px 0;
 }
 
-.hero-img img {
-  max-width: 100%;
-  background-size: cover;
-  height: auto;
+p {
+  text-align: center;
+  margin: 15px 15px 35px 15px;
 }
 
+.our-focus-img img {
+  margin: 0 0 35px 0;
+}
 
 /* ==========================================================================
    Helper classes
