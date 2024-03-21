@@ -402,6 +402,46 @@ p {
   list-style-type: square;
 }
 
+/* Adopt Mobile Tab */
+
+/* Foster Mobile Tab */
+
+/* Volunteer Mobile Tab */
+
+.volunteer-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.volunteer-app button {
+  background: orange;
+  padding: 10px 35px;
+  border-radius: 5px;
+  color: #00526a;
+}
+
+strong {
+  text-decoration: underline;
+}
+
+.job-list {
+  margin: 35px 10px;
+}
+
+.job-list p {
+  margin: 25px;
+}
+
+.volunteer img {
+  margin: 15px 0 15px 0;
+  border-radius: 5%;
+}
+
+/* TNR Mobile Tab */
+
+/* Barn Cats Mobile Tab */
 
 /* Shop Mobile Tab */
 
@@ -422,6 +462,8 @@ p {
   width: 300px;
   height: auto;
 }
+
+/* Donate Mobile Tab */
 
 
 /* ==========================================================================
