@@ -406,6 +406,26 @@ p {
 
 /* Foster Mobile Tab */
 
+.foster-page {
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.foster-page ul {
+  list-style-type: square;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foster-page img {
+  border-radius: 5%;
+}
+
 /* Volunteer Mobile Tab */
 
 .volunteer-app {
