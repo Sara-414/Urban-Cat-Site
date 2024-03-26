@@ -329,6 +329,10 @@ h2 {
   margin: 0 0 50px 0;
 }
 
+.main-page-tnr ul {
+  list-style-type: square;
+}
+
 footer {
   background-color: #00789d; /* Blue footer background */
   color: #fff; /* White text color for footer */
@@ -442,7 +446,7 @@ h4 {
   color: #00526a;
 }
 
-strong {
+.job-list strong {
   text-decoration: underline;
 }
 
@@ -461,6 +465,36 @@ strong {
 
 /* TNR Mobile Tab */
 
+.trap-form h1 {
+  color: yellow;
+}
+
+.tnr-resources ul {
+  list-style-type: square;
+}
+
+.tnr-resources p {
+  margin: 20px 0 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+.tnr-resources h5 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.trap-form h5 {
+  font-size: 1.15rem;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trap-form iframe {
+  height: 5900px;
+}
 /* Barn Cats Mobile Tab */
 
 /* Shop Mobile Tab */
