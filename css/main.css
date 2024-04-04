@@ -423,6 +423,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .foster-page img {
@@ -525,6 +526,14 @@ h4 {
 }
 
 /* Donate Mobile Tab */
+
+.tnr-donate ul {
+  padding: 0;
+}
+
+.tnr-donate ul li {
+  margin-bottom: 25px;
+}
 
 
 /* ==========================================================================
