@@ -407,6 +407,19 @@ p {
 
 /* Adopt Mobile Tab */
 
+.adoptables h1 {
+  font-size: 1.4rem;
+}
+
+.adoption-process h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.adoption-process ul {
+  list-style-type: square;
+}
+
 /* Foster Mobile Tab */
 
 .foster-page {
