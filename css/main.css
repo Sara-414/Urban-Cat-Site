@@ -97,7 +97,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #3a93ae;/*#f0f7f8; Lighter blue background */
+  background-color: #3a93ae; /*blue background*/
 }
 
 .content-wrapper {
@@ -331,6 +331,30 @@ h2 {
 
 .main-page-tnr ul {
   list-style-type: square;
+}
+
+.help-banner {
+  background-color: rgb(240, 156, 1); 
+  padding: 15px 0;
+}
+
+.help-banner h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.help-photos {
+ 
+}
+
+.help-photos ul {
+  padding: 0;
+}
+
+.help-photos ul li {
+  margin: 30px;
 }
 
 footer {
