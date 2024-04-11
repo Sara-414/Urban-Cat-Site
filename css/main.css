@@ -435,6 +435,14 @@ p {
   font-size: 1.4rem;
 }
 
+.adoptables i {
+  color: pink;
+}
+
+.adoption-process h1 {
+  font-size: 1.3rem;
+}
+
 .adoption-process h2 {
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -442,6 +450,10 @@ p {
 
 .adoption-process ul {
   list-style-type: square;
+}
+
+.adoption-process h3 {
+  color: #fff;
 }
 
 /* Foster Mobile Tab */
