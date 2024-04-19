@@ -181,6 +181,7 @@ ul {
   text-align: center;
   font-size: 2rem;
   transition: .3s ease;
+  z-index: 99;
 }
 
 .menu-full.active {
@@ -251,7 +252,7 @@ ul {
 
 h1 {
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 15px 15px 0 15px;
   text-align: center;
 }
@@ -315,10 +316,22 @@ iframe {
 }
 
 .video-element {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  padding: 5px 5px 20px 5px;
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio for a 16:9 video */
+  overflow: hidden;
+  margin: 30px 0;
+}
+
+.video-element iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-element p {
+  position: fixed;
 }
 
 h2 {
@@ -327,12 +340,22 @@ h2 {
 }
 
 .main-page-tnr {
-  margin: 0 0 50px 0;
-  padding: 20px;
+  margin: 0 0 20px 0;
+  padding: 5px 25px 25px 25px;
+}
+
+.main-page-tnr h2 {
+  padding-bottom: 25px;
 }
 
 .main-page-tnr ul {
   list-style-type: square;
+  padding-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin: 15px 20px 35px 20px;
 }
 
 .help-banner {
@@ -357,7 +380,7 @@ h2 {
 }
 
 .help-photos ul li {
-  margin: 30px;
+  margin: 35px;
 }
 
 footer {
@@ -370,12 +393,12 @@ footer {
 }
 
 footer h4 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 footer p {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 footer .content-wrapper {
@@ -420,6 +443,7 @@ footer .copyright {
 
 .ucc-about h1 {
   font-size: 1.2rem;
+  padding-top: 0;
 }
 
 .our-focus {
@@ -429,12 +453,14 @@ footer .copyright {
 
 .our-focus h2 {
   font-size: 1.1rem;
-  padding: 0 20px;
+  padding: 0px 20px;
 }
 
-p {
-  text-align: center;
-  margin: 15px 20px 35px 20px;
+.our-focus h3 {
+  font-size: .95rem;
+  color: #fff;
+  padding: 0 15px;
+  margin-bottom: 0;
 }
 
 .our-focus-img img {
@@ -445,9 +471,11 @@ p {
 .our-focus ul {
   list-style-type: square;
   padding-right: 20px;
+  padding-bottom: 25px;
 }
 
 /* Adopt Mobile Tab */
+
 .adoptables {
   padding: 15px;
 }
@@ -578,12 +606,40 @@ h4 {
 
 /* TNR Mobile Tab */
 
+.tnr {
+  padding: 20px 20px 0 20px;
+}
+
+.tnr h2 {
+  font-size: 1.1rem;
+}
+
+.gif {
+  position: relative;
+  padding-bottom: 56.25%; /* Aspect ratio for a 16:9 video */
+  overflow: hidden;
+  margin-bottom: 60px;
+  pointer-events: none;
+}
+
+.gif iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .tnr-page {
-  padding: 15px;
+  padding: 0 20px 20px 20px;
 }
 
 .tnr-page h2 {
   font-size: 1.1rem;
+}
+
+.tnr-instruction {
+  background: 
 }
 
 .tnr-resources h2 {
@@ -614,7 +670,7 @@ h4 {
 }
 
 .trap-form {
-  padding: 0 15px;
+  padding: 0 15px 25px 15px;
 }
 .trap-form h1 {
   color: yellow;
@@ -660,12 +716,17 @@ h4 {
   padding: 0 15px;
 }
 
+.working-cat-info h1 {
+  padding-top: 0;
+}
+
 .working-cat-info h2 {
   font-size: 1.1rem;
 }
 
 .working-cat-info ul {
   list-style-type: square;
+  padding-bottom: 20px;
 }
 
 .working-cat img {
@@ -677,6 +738,10 @@ h4 {
 }
 
 /* Shop Mobile Tab */
+
+.merch-list h2 {
+  padding: 20px 0 25px 0;
+}
 
 .merch-list ul {
   justify-content: center;
@@ -831,8 +896,36 @@ h4 {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 480px) {
+  /*main page*/
+
+  .help-photos ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+
+  .help-photos ul li {
+    margin: 20px 10px 5px 10px;
+    position: relative;
+    display: block;
+  }
+
+  .help-photos img {
+    border-radius: 5px;
+    max-width: 215px;
+  }
+}
+  
+@media only screen and (min-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (min-width: 1024px) {
 }
 
 @media print,
