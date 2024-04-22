@@ -132,33 +132,39 @@ footer {
 /* ----- Mobile Styles - Hompage ----- */
 
 nav {
-  padding: .75rem;
+  padding: .75rem .75rem 1.2rem .75rem;
   display: flex;
   background-color: #00789d;
-  margin-bottom: 35px;
+  margin-bottom: 45px;
 }
 
 nav img {
-  width: 4rem;
   padding: 0;
   margin: 0;
+  z-index:1033;
+  width: 6rem;
+  position: relative;
+  margin-top: -75px;
+  margin-bottom: -100px;
 }
 
 nav figure {
   margin: 0;
+  margin-top: 30px;
 }
 
 nav button {
   background: orange;
-  padding: 8px 25px;
+  padding: 9px 27px;
   border-radius: 5px;
   color: #00526a;
 }
 
 .donate-button {
+  font-size: 1.1rem;
   align-items: center;
   margin-left: auto;
-  margin-top: 14px;
+  margin-top: 10px;
   position: relative;
 }
 
@@ -172,7 +178,7 @@ ul {
   width: 75%;
   max-width: 450px;
   position: fixed;
-  top: 85px;
+  top: 75px;
   right: -450px;
   display: flex;
   flex-direction: column;
@@ -209,15 +215,15 @@ ul {
 }
 
 .ham-menu span:nth-child(1) {
-  top: 36%;
+  top: 32%;
 }
 
 .ham-menu span:nth-child(2) {
-  top: 66%;
+  top: 62%;
 }
 
 .ham-menu span:nth-child(3) {
-  top: 96%;
+  top: 92%;
 }
 
 .ham-menu.active span:nth-child(1) {
@@ -477,7 +483,7 @@ footer .copyright {
 /* Adopt Mobile Tab */
 
 .adoptables {
-  padding: 15px;
+  padding: 0 15px 15px 15px;
 }
 
 .adoptables h1 {
@@ -764,7 +770,7 @@ h4 {
 /* Donate Mobile Tab */
 
 .donation-page {
-  padding: 15px;
+  padding: 10px 15px 15px 15px;
 }
 
 .donation-page h2 {
@@ -899,11 +905,24 @@ h4 {
 @media only screen and (min-width: 480px) {
   /*main page*/
 
+  nav button {
+    padding: 9px 30px;
+  }
+
+  .main-page-tnr h2 {
+    padding: 0 20px 25px 20px;
+  }
+
+  .main-page-tnr ul {
+    padding-right: 15px;
+  }
+
   .help-photos ul {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
     align-content: space-around;
+    padding: 5px 5px 25px 5px;
   }
 
   .help-photos ul li {
@@ -916,6 +935,31 @@ h4 {
     border-radius: 5px;
     max-width: 215px;
   }
+
+  /*Who We Are*/
+
+  .ucc-about {
+    padding: 15px 30px;
+  }
+
+  .our-focus h2 {
+    padding: 0 30px;
+  }
+  
+  .our-focus h3 {
+    font-size: 1rem;
+    padding: 0 30px;
+  }
+  
+  .our-focus ul {
+    padding-right: 35px;
+    padding-left: 60px;
+  }
+
+  .our-focus p {
+    padding: 0 25px;
+  }
+
 }
   
 @media only screen and (min-width: 768px) {
