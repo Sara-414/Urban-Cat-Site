@@ -905,15 +905,27 @@ h4 {
 @media only screen and (min-width: 480px) {
   /*main page*/
 
+  h1 {
+    padding: 15px 25px 0 25px;
+  }
+
   nav button {
+    font-size: 1.2rem;
     padding: 9px 30px;
   }
 
+  .main-page-tnr h1 {
+    font-size: 1.3rem;
+  }
+
   .main-page-tnr h2 {
+    font-size: 1.15rem;
+    font-weight: normal;
     padding: 0 20px 25px 20px;
   }
 
   .main-page-tnr ul {
+    font-size: 1.1rem;
     padding-right: 15px;
   }
 
@@ -942,25 +954,144 @@ h4 {
     padding: 15px 30px;
   }
 
+  .ucc-about h1 {
+    font-size: 1.4rem;
+  }
+
+  .ucc-about h2 {
+    font-size: 1.05rem;
+  }
+
   .our-focus h2 {
+    font-size: 1.3rem;
     padding: 0 30px;
   }
   
   .our-focus h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 0 30px;
   }
   
   .our-focus ul {
+    font-size: 1.1rem;
     padding-right: 35px;
     padding-left: 60px;
   }
 
   .our-focus p {
+    font-size: 1.1rem;
     padding: 0 25px;
   }
 
+  /*Adoptables*/
+
+  .adoptables h1 {
+    font-size: 1.6rem;
+  }
+
+  .adoptables p {
+    font-size: 1.1rem;
+  }
+
+  .volunteer-app button {
+    font-size: 1.2rem;
+  }
+
+  .adoption-process {
+    padding: 25px;
+  }
+
+  .adoption-process h2 {
+    font-size: 1.4rem;
+  }
+
+  .adoption-process h3 {
+    padding: 0 30px;
+  }
+
+  .adoption-process ul {
+    font-size: 1.1rem;
+  }
+
+  .adoption-process p {
+    font-size: 1.1rem;
+  }
+
+  /*Foster*/
+  .foster-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .foster-page h4 {
+    font-size: 1.3rem;
+  }
+
+  .foster-page p {
+    font-size: 1.05rem;
+  }
+
+  .foster-page ul {
+    font-size: 1.05rem;
+  }
+
+  /*Volunteer*/
+  .volunteer {
+    padding: 20px;
+  }
+
+  .volunteer h1 {
+  font-size: 1.4rem;
+  }
+
+  .volunteer p {
+    font-size: 1.05rem;
+  }
+
+  /*TNR*/
+  .tnr h2 {
+    font-size: 1.2rem;
+  }
+
+  /*Barn Cats*/
+  .working-cat {
+    padding: 5px 25px;
+  }
+
+  .working-cat p {
+    font-size: 1.05rem;
+  }
+
+  .working-cat-info {
+    padding: 0 20px;
+  }
+
+  .working-cat-info h2 {
+    font-size: 1.3rem;
+  }
+
+  .working-cat-info ul {
+    padding-right: 25px;
+  }
+
+  /*Shop*/
+  .merch-list h2 {
+    font-size: 1.2rem;
+  }
+
+  /*Donate*/
+  .donation-page {
+    margin: 15px;
+  }
+
+  .donation-page h2 {
+    font-size: 1.2rem;
+  }
+
+  .tnr-donate {
+    margin: 5px 30px;
+  }
 }
+
   
 @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
