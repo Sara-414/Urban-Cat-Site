@@ -256,6 +256,14 @@ ul {
   height: auto;
 }
 
+.desktop-img {
+  display: none;
+}
+
+.mobile-img {
+  width: 100%;
+}
+
 h1 {
   color: #fff;
   font-size: 1.2rem;
@@ -736,11 +744,11 @@ h4 {
 }
 
 .working-cat img {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .working-cat-info img {
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 /* Shop Mobile Tab */
@@ -1018,6 +1026,7 @@ h4 {
   }
 
   /*Foster*/
+
   .foster-page h1 {
     font-size: 1.5rem;
   }
@@ -1035,6 +1044,7 @@ h4 {
   }
 
   /*Volunteer*/
+
   .volunteer {
     padding: 20px;
   }
@@ -1048,11 +1058,13 @@ h4 {
   }
 
   /*TNR*/
+
   .tnr h2 {
     font-size: 1.2rem;
   }
 
   /*Barn Cats*/
+
   .working-cat {
     padding: 5px 25px;
   }
@@ -1074,11 +1086,13 @@ h4 {
   }
 
   /*Shop*/
+
   .merch-list h2 {
     font-size: 1.2rem;
   }
 
   /*Donate*/
+
   .donation-page {
     margin: 15px;
   }
@@ -1096,11 +1110,312 @@ h4 {
 @media only screen and (min-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
 
+  /*Main page*/
+
+  nav {
+    padding: 1rem 1rem 1.3rem 1rem;
+  }
+
+  nav img {
+    width: 7rem;
+    margin-top: -65px;
+    margin-bottom: -100px;
+}
+
+  nav button {
+    font-size: 1.4rem;
+    padding: 9px 40px;
+  }
+
+  .donate-button {
+    margin-top: 13px;
+  }
+
+  .ham-menu {
+    height: 60px;
+    width: 60px;
+  }
+
+  .desktop-img {
+    width: 100%;
+    display: block;
+  }
+  
+  .mobile-img {
+    display: none;
+  }
+
+  .desktop-img {
+    margin-top: 45px;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+    padding: 25px 30px 10px 30px;
+  }
+
+  .info-bar h3 {
+    font-size: .9rem;
+  }
+
+  .help-photos img {
+    max-width: 225px;
+  }
+
+  footer .content-wrapper {
+    width: 50%;
+  }
+
+  .footer-content h4 {
+    font-size: 1.4rem;
+  }
+
+  /* Adoptables */
+
+  .adoptables {
+    margin: 15px;
+  }
+
+  .adoptables h1 {
+    padding: 35px 40px 10px 40px;
+  }
+
+  .adoptables p {
+    font-size: 1.2rem;
+  }
+
+  .adoption-process h1 {
+    font-size: 1.5rem;
+  }
+
+  .adoption-process ul {
+    margin: 0 110px;
+  }
+
+  .adoption-process p {
+    font-size: 1.2rem;
+  }
+
+  .adoption-process h3 {
+    font-size: .8rem;
+    margin-top: 0;
+  }
+
+  /*Fostering*/
+
+  .foster-page {
+    margin: 70px;
+  }
+
+  .foster-page p {
+    font-size: 1.1rem;
+  }
+
+  .foster-page ul {
+    font-size: 1.1rem;
+  }
+
+  .volunteer-app button {
+    padding: 12px 45px;
+  }
+
+  .foster-img-container {
+    text-align: center;
+  }
+
+  .foster-img img {
+    max-width: 400px;
+  }
+
+  /* Volunteer */
+
+  .volunteer {
+    text-align: center;
+  }
+
+  .volunteer img {
+    max-width: 500px;
+  }
+
+  /* TNR */
+
+  .tnr-content-wrapper {
+    margin: 60px;
+  }
+
+  .tnr-page h1 {
+    font-size: 1.4rem;
+  }
+
+  .tnr-page h2 {
+    font-size: 1.3rem;
+  }
+
+  .tnr-resources h2 {
+    font-size: 1.2rem;
+  }
+
+  .tnr-resources h5 {
+    font-size: 1.4rem;
+  }
+
+  .tnr-resources ul {
+    font-size: 1.1rem;
+  }
+
+  .trap-form h5 {
+    font-size: 1.3rem;
+  }
+
+  .trap-form p {
+    font-size: 1.1rem;
+  }
+
+  .trap-form h1 {
+    font-size: 1.4rem;
+  }
+
+  /* Working Cats aka Barn Cats */
+
+  .working-cat-content-wrapper {
+    margin: 25px 50px;
+  }  
+
+  .working-cat-content-wrapper h1 {
+    font-size: 1.7rem;
+  }
+
+  .working-cat-content-wrapper h2 {
+    font-size: 1.4rem;
+  }
+
+  .working-cat h3 {
+    font-size: 1rem;
+  }
+
+  .working-cat-content-wrapper p {
+    font-size: 1.1rem;
+  }
+
+  .working-cat-content-wrapper ul {
+    font-size: 1.1rem;
+  }
+
+  .working-cat-content-wrapper img {
+    border-radius: 5px;
+  }
+
+  /* Shop */
+
+  .shop-content-wrapper {
+    margin: 40px;
+  }
+
+  .merch-list h2 {
+    font-size: 1.4rem;
+  }
+
+  .merch-list ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 5px 5px 25px 5px;
+  }
+
+  .merch-list ul li {
+    margin: 20px 10px 5px 10px;
+    position: relative;
+    display: block;
+  }
+
+  /* Donate */
+
+  .donation-page {
+    margin: 60px;
+  }
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
 
 @media only screen and (min-width: 1024px) {
+
+  /* Main Page */
+
+  nav {
+    padding: 1.5rem 1.2rem 1.8rem 1.2rem;
+  }
+
+  nav button {
+    font-size: 1.4rem;
+    padding: 10px 50px;
+  }
+
+  .donate-button {
+    margin-top: 12px;
+  }
+
+  nav button {
+    font-size: 1.5rem;
+  }
+
+  nav img {
+    width: 9rem;
+    margin-top: -45px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    padding: 25px 40px 10px 40px;
+  }
+
+  .what-is-tnr {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+  }
+  
+  .what-is-tnr .video-element {
+    width: 40%;
+  }
+  
+  .what-is-tnr-text {
+    width: 40%;
+  }
+  
+  .tnr-benefits {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+  }
+  
+  .tnr-benefits-text {
+    width: 40%;
+  }
+  
+  .tnr-benefits .video-element {
+    width: 40%;
+  }
+
+  .help-photos img {
+    max-width: 183px;
+  }
+
+  .help-photos ul {
+    padding: 25px 5px 45px 5px;
+  }
+
+  footer .content-wrapper {
+    width: 40%;
+  }
+
+  .footer-content h4 {
+    font-size: 1.4rem;
+  }
+
 }
 
 @media print,
