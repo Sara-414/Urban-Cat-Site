@@ -260,6 +260,10 @@ ul {
   display: none;
 }
 
+.desktop-large-img {
+  display: none;
+}
+
 .mobile-img {
   width: 100%;
 }
@@ -1139,14 +1143,11 @@ h4 {
   .desktop-img {
     width: 100%;
     display: block;
+    margin-top: 45px;
   }
   
   .mobile-img {
     display: none;
-  }
-
-  .desktop-img {
-    margin-top: 45px;
   }
 
   h1 {
@@ -1372,32 +1373,43 @@ h4 {
 
   .what-is-tnr {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
     flex-flow: row wrap;
+    text-align: center;
+    margin: 50px 0;
   }
   
   .what-is-tnr .video-element {
-    width: 40%;
+    width: 55%;
+    position: relative;
+    padding-bottom: 30px;
+  }
+
+  .what-is-tnr .video-element iframe {
+    height: 350px;
   }
   
   .what-is-tnr-text {
-    width: 40%;
+    width: 38%;
   }
-  
+
   .tnr-benefits {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
     flex-flow: row wrap;
   }
   
   .tnr-benefits-text {
-    width: 40%;
+    width: 38%;
   }
   
   .tnr-benefits .video-element {
-    width: 40%;
+    width: 55%;
+    padding-bottom: 0;
+  }
+
+  .tnr-benefits .video-element iframe {
+    height: 350px;
   }
 
   .help-photos img {
@@ -1414,6 +1426,33 @@ h4 {
 
   .footer-content h4 {
     font-size: 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .desktop-large-img {
+    width: 100%;
+    display: block;
+    margin-top: 45px;
+  }
+  
+  .desktop-img {
+    display: none;
+  }
+
+  .main-page-tnr {
+    padding: 5px 85px 25px 85px;
+    margin: 50px 45px;
+  }
+
+  .what-is-tnr {
+    margin: 65px 25px;
+  }
+
+  .tnr-benefits {
+    margin: 65px 25px;
   }
 
 }
