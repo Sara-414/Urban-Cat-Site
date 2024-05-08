@@ -1202,6 +1202,30 @@ h4 {
     margin-top: 0;
   }
 
+  .kitten-pairs p {
+    text-align: left;
+  }
+
+  .kitten-pairs {
+    margin: 35px 35px 70px 35px;
+  }
+
+  .kitten-pairs h1 {
+    font-size: 1.4rem;
+  }
+
+  .kitten-pairs h2 {
+    font-size: 1.3rem;
+  }
+
+  .kitten-pairs p {
+    font-size: 1.1rem;
+  }
+
+  .kitten-pairs ul li {
+    font-size: 1.2rem;
+  }
+
   /*Fostering*/
 
   .foster-page {
@@ -1366,6 +1390,11 @@ h4 {
     margin-top: -45px;
   }
 
+  .menu-full {
+    top: 90px;
+    font-size: 2.5rem;
+  }
+
   h1 {
     font-size: 1.5rem;
     padding: 25px 40px 10px 40px;
@@ -1426,6 +1455,105 @@ h4 {
 
   .footer-content h4 {
     font-size: 1.4rem;
+  }
+
+  /* Who We Are */
+
+  .ucc-about {
+    margin: 60px;
+  }
+
+  .ucc-about h1 {
+    font-size: 1.8rem;
+  }
+
+  .ucc-about h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+  }
+
+  .our-focus {
+    padding: 90px;
+  }
+
+  .our-focus h2 {
+    font-size: 1.6rem;
+  }
+
+  .our-focus h3 {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+
+  .our-focus ul {
+    font-size: 1.2rem;
+  }
+
+  .our-focus p {
+    font-size: 1.2rem;
+  }
+
+  /* Adoptables */
+
+  .adoptables h1 {
+    font-size: 1.7rem;
+  }
+
+  .adoptables p {
+    font-size: 1.3rem;
+  }
+
+  .adoptables {
+    margin: 60px 65px 0 65px;
+  }
+
+  .adoption-process {
+    margin: 0 50px;
+  }
+
+  .adoption-process h2 {
+    font-size: 1.5rem;
+  }
+
+  .adoption-process ul {
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+    margin: 0 220px;
+  }
+
+  .adoption-process p {
+    padding-bottom: 40px;
+  }
+
+  .adoption-process h3 {
+    font-size: .9rem;
+  }
+
+  .kitten-pairs-content-wrapper {
+    margin: 100px;
+  }
+
+  .kitten-pairs-content-wrapper img {
+    border-radius: 5%;
+  }
+
+  .kitten-pairs h1 {
+    font-size: 1.6rem;
+    padding-top: 45px;
+  }
+
+  .kitten-pairs h2 {
+    font-size: 1.4rem;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+
+  .kitten-pairs p {
+    font-size: 1.2rem;
+  }
+
+  .kitten-pairs ul li {
+    font-size: 1.2rem;
   }
 
 }
