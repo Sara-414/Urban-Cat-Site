@@ -581,8 +581,18 @@ h4 {
   padding: 0 15px 0 15px;
 }
 
+.foster-page h5 {
+  font-weight: normal;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
 .foster-page img {
   border-radius: 5%;
+}
+
+.foster-img-container {
+  padding-bottom: 40px;
 }
 
 /* Volunteer Mobile Tab */
@@ -1031,6 +1041,10 @@ h4 {
 
   /*Foster*/
 
+  .foster-page {
+    padding: 15px;
+  }
+
   .foster-page h1 {
     font-size: 1.5rem;
   }
@@ -1446,7 +1460,7 @@ h4 {
   }
 
   .help-photos ul {
-    padding: 25px 5px 45px 5px;
+    padding: 25px 0 45px 0;
   }
 
   footer .content-wrapper {
@@ -1454,7 +1468,11 @@ h4 {
   }
 
   .footer-content h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+  }
+
+  .contact p {
+    font-size: 1.2rem;
   }
 
   /* Who We Are */
@@ -1554,6 +1572,59 @@ h4 {
 
   .kitten-pairs ul li {
     font-size: 1.2rem;
+  }
+
+  /* Foster Page */
+
+  .foster-page {
+    margin: 65px 110px 80px 110px;
+  }
+
+  .foster-page h1 {
+    font-size: 1.7rem;
+  }
+
+  .foster-page h4 {
+    font-size: 1.5rem;
+  }
+
+  .foster-page p {
+    font-size: 1.2rem;
+    margin-bottom: 55px;
+  }
+
+  .foster-page ul {
+    font-size: 1.2rem;
+  }
+
+  .volunteer-app button {
+    padding: 13px 47px;
+    font-size: 1.4rem;
+  }
+
+  .foster-sidebyside {
+    display: flex;
+    margin: 0 50px;
+  }
+
+  .by-fostering-text {
+    width: 60%;
+    padding-left: 40px;
+  }
+
+  .foster-page h5 {
+    font-size: 1.2rem;
+  }
+
+  .augustus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .augustus img {
+    max-width: 700px;
   }
 
 }
