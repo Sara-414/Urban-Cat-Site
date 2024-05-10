@@ -528,6 +528,14 @@ footer .copyright {
   color: #fff;
 }
 
+.payment-update {
+  margin: 25px 30px;
+}
+
+.payment-update img {
+  border-radius: 5%;
+}
+
 .kitten-pairs {
   margin: 0 14px;
 }
@@ -1216,6 +1224,10 @@ h4 {
     margin-top: 0;
   }
 
+  .payment-update {
+    margin: 25px 50px;
+  }
+
   .kitten-pairs p {
     text-align: left;
   }
@@ -1547,12 +1559,17 @@ h4 {
     font-size: .9rem;
   }
 
+  .payment-update {
+    margin: 55px 150px;
+  }
+
   .kitten-pairs-content-wrapper {
     margin: 100px;
   }
 
   .kitten-pairs-content-wrapper img {
     border-radius: 5%;
+    margin: 0 50px;
   }
 
   .kitten-pairs h1 {
@@ -1577,7 +1594,7 @@ h4 {
   /* Foster Page */
 
   .foster-page {
-    margin: 65px 110px 80px 110px;
+    margin: 65px 100px 80px 100px;
   }
 
   .foster-page h1 {
@@ -1627,7 +1644,101 @@ h4 {
     max-width: 700px;
   }
 
+  /* Volunteer Page */
+
+  .volunteer h1 {
+    font-size: 1.7rem;
+  }
+
+  .volunteer {
+    margin: 25px 50px 25px 50px;
+  }
+
+  .volunteer p {
+    font-size: 1.3rem;
+  }
+
+  .volunteer img {
+    max-width: 600px;
+  }
+
+  .volunteer-app {
+    margin-bottom: 25px;
+  }
+
+  /* TNR page */
+
+  .tnr-content-wrapper {
+    margin: 70px 120px 25px 120px;
+  }
+
+  .tnr h2 {
+    font-size: 1.55rem;
+  }
+
+  .tnr-page h1 {
+    font-size: 1.6rem;
+    padding: 25px 30px 10px 30px;
+  }
+
+  .gif {
+    margin: 0 40px 60px 40px;
+  }
+
+  .tnr-resources h5 {
+    font-size: 1.6rem;
+  }
+
+  .tnr-resources ul {
+    font-size: 1.2rem;
+    padding-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .trap-form h5 {
+    font-size: 1.5rem;
+  }
+
+  .trap-form iframe {
+    height: 5600px;
+  }
+
+  /* Working Cat Page*/
+
+  .working-cat-content-wrapper {
+    margin: 50px 115px;
+  }
+
+  .working-cat-content-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .working-cat-content-wrapper h3 {
+    font-size: 1.3rem;
+  }
+
+  .working-cat-content-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  .working-cat-content-wrapper ul {
+    font-size: 1.2rem;
+    padding-left: 75px;
+  }
+
+  /* Shop */
+
+  .shop-content-wrapper {
+    margin: 60px;
+  }
+
+  .merch-list ul li img {
+    width: 260px;
+  }
+
+
 }
+
 
 @media only screen and (min-width: 1200px) {
 
