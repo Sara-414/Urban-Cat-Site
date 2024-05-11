@@ -813,6 +813,10 @@ h4 {
   font-size: 1.1rem;
 }
 
+.donation-page img {
+  border-radius: 5%;
+}
+
 .donate-today {
   display: flex;
   justify-content: center;
@@ -821,18 +825,13 @@ h4 {
 }
 
 .donate-today button {
-  background: orange;
+  background: palevioletred;
   padding: 10px 50px;
   border-radius: 5px;
   font-size: 1.2rem;
-  color: #fff;
+  color: whitesmoke;
   font-weight: bold;
-  text-shadow: 1px 1px #00526a;
-  text-transform: uppercase;
-}
-
-.donate-today button i {
-  color: pink;
+  text-shadow: .5px .5px navy;
 }
 
 .tnr-donate ul {
@@ -1736,6 +1735,36 @@ h4 {
     width: 260px;
   }
 
+  /* Donate */
+
+  .donation-page {
+    margin: 70px 80px;
+  }
+
+  .donation-page h2 {
+    font-size: 1.4rem;
+  }
+
+  .donation-page h3 {
+    font-size: 1.3rem;
+  }
+
+  .donation-page p {
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+  }
+
+  .tnr-donate ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+
+  .tnr-donate img {
+    max-width: 350px;
+    display: block;
+  }
 
 }
 
