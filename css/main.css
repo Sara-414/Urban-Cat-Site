@@ -457,6 +457,7 @@ footer .copyright {
 
 .ucc-about {
   padding: 15px;
+  border-bottom: 5px dotted orange ;
 }
 
 .ucc-about h1 {
@@ -1192,6 +1193,16 @@ h4 {
     font-size: 1.4rem;
   }
 
+  /* Who We Are */
+
+  .our-focus {
+    padding-top: 60px;
+  }
+
+  .our-focus ul {
+    padding-left: 100px;
+  }
+
   /* Adoptables */
 
   .adoptables {
@@ -1431,6 +1442,8 @@ h4 {
     flex-flow: row wrap;
     text-align: center;
     margin: 50px 0;
+    padding-bottom: 45px;
+    border-bottom: 5px dotted orange ;
   }
   
   .what-is-tnr .video-element {
@@ -1451,6 +1464,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    margin: 25px;
   }
   
   .tnr-benefits-text {
@@ -1489,7 +1503,8 @@ h4 {
   /* Who We Are */
 
   .ucc-about {
-    margin: 60px;
+    margin: 60px 60px 0 60px;
+    padding-bottom: 60px;
   }
 
   .ucc-about h1 {
@@ -1525,7 +1540,7 @@ h4 {
   /* Adoptables */
 
   .adoptables h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .adoptables p {
@@ -1606,7 +1621,7 @@ h4 {
 
   .foster-page p {
     font-size: 1.2rem;
-    margin-bottom: 55px;
+    margin: 15px 0 55px 0;
   }
 
   .foster-page ul {
@@ -1781,17 +1796,128 @@ h4 {
     display: none;
   }
 
+  h1 {
+    padding: 45px 80px 30px 80px;
+  }
+
   .main-page-tnr {
-    padding: 5px 85px 25px 85px;
+    padding: 5px 75px 25px 75px;
     margin: 50px 45px;
   }
 
   .what-is-tnr {
-    margin: 65px 25px;
+    margin: 65px 25px 25px 25px;
   }
 
   .tnr-benefits {
-    margin: 65px 25px;
+    margin: 25px;
+  }
+
+  .what-is-tnr .video-element {
+    width: 55%;
+  }
+  
+  .what-is-tnr-text {
+    width: 40%;
+  }
+
+  .what-is-tnr-text h1 {
+    padding: 25px 50px 5px 50px
+  }
+
+  .tnr-benefits {
+    margin: 25px;
+  }
+  
+  .tnr-benefits-text {
+    width: 38%;
+  }
+
+  .tnr-benefits-text h1 {
+    padding: 45px 20px 5px 20px;
+    margin-top: 50px;
+  }
+  
+  .tnr-benefits .video-element {
+    width: 58%;
+    padding-bottom: 0;
+    margin-top: 90px;
+  }
+
+  .help-photos img {
+    max-width: 215px;
+  }
+
+  /* Who We Are */
+
+  .ucc-about {
+    margin: 80px 80px 0 80px;
+    padding-bottom: 80px;
+  }
+
+  .our-focus {
+    padding: 100px;
+  }
+
+  /* Foster Page */
+
+  .foster-page {
+    margin: 65px 110px 80px 110px;
+  }
+
+  .foster-sidebyside {
+    margin: 0 90px 20px 90px;
+  }
+
+  .foster-img img {
+    max-width: 350px;
+  }
+
+  .by-fostering-text {
+    width: 50%;
+  }
+
+  .by-fostering-text h4 {
+    text-align: left;
+  }
+
+  /* TNR */
+
+  .tnr-content-wrapper {
+    margin: 70px 150px 25px 150px;
+  }
+
+  .tnr h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  .gif {
+    margin: 0 75px 60px 75px;
+  }
+
+  .tnr-page h2 {
+    font-size: 1.6rem;
+  }
+
+  /* Barn Cats */
+
+  .working-cat-content-wrapper {
+    margin: 50px 130px;
+  }
+
+  /* Donate */
+
+  .donation-page p {
+    font-size: 1.2rem;
+  }
+
+  .donation-page h3 {
+    font-size: 1.5rem;
+  }
+
+  .tnr-donate img {
+    max-width: 450px;
   }
 
 }
