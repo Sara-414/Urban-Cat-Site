@@ -436,6 +436,17 @@ footer .contact {
   margin-bottom: 50px;
 }
 
+.newsletter {
+  display: flex;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mc-field-group {
+  padding-bottom: 10px;
+}
+
 footer .social-icons {
   display: flex;
   justify-content: space-around;
